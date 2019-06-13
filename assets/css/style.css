@@ -12,14 +12,22 @@ body {
 
 /* general */
 
-.container {
-  width: 100%;
-  max-width: 960px;
+.carousel-container {
+  max-width: 100%;
   margin: auto;
   clear: both;
 }
 
-h1,
+.carousel-inner {
+  max-width:60%;
+  max-height:30%;
+  margin: auto;
+}
+
+h1 {
+/* margin-left: 150px */
+};
+
 h2,
 h3,
 p {
@@ -71,10 +79,10 @@ h3 {
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
-  color: #ffffff;
+  color: #4aaaa5;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  /* background: #4aaaa5; */
 }
 
 nav {
@@ -86,7 +94,7 @@ nav a {
   display: inline-block;
   padding-left: 15px;
   margin-left: 15px;
-  line-height: 18px;
+  line-height: 50px;
   color: #999;
   text-decoration: none;
   border-left: 1px solid #efefef;
@@ -127,11 +135,11 @@ h3, h2 {
 }
 
 .main-section {
-  float: left;
+  /* float: left; */
   width: 100%;
   max-width: 960px;
   padding: 20px;
-  margin: 0 0 40px;
+  margin: auto;
   background: #ffffff;
   border: 1px solid #dddddd;
 }
