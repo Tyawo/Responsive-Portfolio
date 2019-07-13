@@ -30,10 +30,6 @@ a.nav-link{
   margin: auto;
 }
 
-h1 {
-/* margin-left: 150px */
-};
-
 h2,
 h3,
 p {
@@ -162,8 +158,8 @@ h3, h2 {
 
 p {
   position: relative;
-  float: left;
-  width: 274px;
+  /* float: left; */
+  width: auto;
   margin: 20px 0 20 10px;
   overflow: auto;
 }
