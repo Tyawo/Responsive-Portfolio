@@ -162,6 +162,7 @@ p {
   width: auto;
   margin: 20px 0 20 10px;
   overflow: auto;
+  text-align: justify;
 }
 
 .work:nth-child(even) {
